@@ -20,3 +20,5 @@ Route::get('/', [PageController::class, 'index'])->name('home');
 Route::get('/contatti', [PageController::class, 'about'])->name('about');
 
 Route::get('/chi-siamo', [PageController::class, 'contacts'])->name('contacts');
+
+Route::get('/i miei treni', [PageController::class, 'myTrains'])->name('myTrains');
