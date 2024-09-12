@@ -17,6 +17,7 @@
                     <th scope="col">numero_carrozza</th>
                     <th scope="col">in_orario</th>
                     <th scope="col">cancellato</th>
+                    <th scope="col"> data_partenza</th>
                 </tr>
             </thead>
             <tbody>
@@ -32,8 +33,11 @@
                         <td>{{ $train->numero_carrozza }}</td>
                         <td>{{ $train->in_orario }}</td>
                         <td>{{ $train->cancellato }}</td>
+                        <td>{{ $train->data_partenza }}</td>
                     </tr>
                 @endforeach
+
+
 
             </tbody>
         </table>
