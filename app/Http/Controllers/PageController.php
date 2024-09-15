@@ -7,6 +7,7 @@ use App\Models\Train;
 
 
 
+
 class PageController extends Controller
 {
 

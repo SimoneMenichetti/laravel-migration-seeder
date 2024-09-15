@@ -11,6 +11,7 @@
                 <a class="nav-link" href="{{ route('about') }}">Chi siamo</a>
                 <a class="nav-link" href="{{ route('contacts') }}">Contatti</a>
                 <a class="nav-link" href="{{ route('myTrains') }}">I miei Treni</a>
+                <a class="nav-link" href="{{ route('myVoyager') }}">I miei pacchetti viaggio</a>
             </div>
         </div>
     </div>

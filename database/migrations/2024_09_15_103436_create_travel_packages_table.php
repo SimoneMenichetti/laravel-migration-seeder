@@ -19,8 +19,9 @@ return new class extends Migration
             $table->decimal('prezzo', 8, 2);
             $table->date('data_partenza');
             $table->date('data_ritorno');
+            $table->string('luogo_partenza')->nullable();
+            $table->string('destinazione');
             $table->integer('numero_giorni');
-            $table->string('luogo_destinazione');
             $table->integer('numero_posti');
             $table->boolean('disponibile')->default(true);
             $table->timestamps();
